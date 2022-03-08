@@ -64,4 +64,12 @@
  * if the priority becomes larger, call SiftUp on the element
  * if the priority becomes smaller, call SiftDown on the element
  * 
+ * 
+ * ! element in the queue doesn't have to be a value, it can be a task, or an object
+ * ! thus priority queue can be used for ranking the priority of system tasks,
+ * 
+ * 
+ * 
+ * 
+ * ! can use a additional binary tree to aid searching
  */

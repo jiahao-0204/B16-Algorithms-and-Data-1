@@ -64,6 +64,7 @@ public:
 
     // operator << overloading
     StackEnhanced & operator<<(const T & x){
+        // ! if no &, will return a copy, which doesn't work anymore?
         push(x);
         return *this;
     }

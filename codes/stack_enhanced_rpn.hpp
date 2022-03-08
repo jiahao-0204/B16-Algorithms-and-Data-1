@@ -57,7 +57,7 @@ StackEnhanced<T> & negate(StackEnhanced<T> & s){
 };
 
 
-
+// ! to implement overload of operator<<, can use function pointer
 
 
 #endif // __stack_enhanced_rpn__

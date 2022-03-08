@@ -46,7 +46,8 @@ Node<T>* list_delete_after(Node<T>* node)
     return node->next.get();
 }
 
-
+// ! when a thing, is made into a unique_pointer, once nothing is pointing at it
+// ! it will be automatically delete.
 
 
 
